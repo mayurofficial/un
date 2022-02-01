@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@router/*": ["src/router/*"],
+      "@pages/*": ["src/pages/*"],
+      "@components/*": ["src/components/*"],
+      "@helpers/*": ["src/helpers/*"],
+      "@redux/*": ["src/redux/*"],
+      "@network/*": ["src/network/*"],
+      "@layouts/*": ["src/layout/*"],
+      "@session/*": ["src/session_manager/*"]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "next-web-template",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=dev next dev",
+    "qa": "NODE_ENV=qa next dev",
+    "staging": "NODE_ENV=staging next dev",
+    "build:dev": "NODE_ENV=dev next build",
+    "build:qa": "NODE_ENV=qa next build",
+    "build:staging": "NODE_ENV=staging next build",
+    "build:prod": "NODE_ENV=prod next build",
+    "start:dev": "next start -p 3001",
+    "start:qa": "next start -p 3002",
+    "start:staging": "next start -p 3003",
+    "start:prod": "next start -p 3004",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.4",
+    "@mui/material": "^5.2.4",
+    "js-cookie": "^3.0.1",
+    "next": "^12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.4"
+  }
+}
